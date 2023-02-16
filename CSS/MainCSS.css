@@ -1,0 +1,255 @@
+body{
+    font-size:  20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul, li{
+
+    list-style: none;
+}
+header{
+    width: 81%;
+    height: 80px;
+    margin: 0px auto;
+    border-bottom: 5px solid black;
+    position: relative;
+}
+#logo img{
+    height: 75px;
+    width: auto;
+}
+
+ul#navbar li{
+
+    float: left;
+    align-items: center;
+    position: relative;
+}
+ul#navbar{
+
+    float: right;
+}
+ul#navbar li a{
+
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #000;
+}
+#clearpix{
+    clear: both;
+}
+.noidung{
+    top: 2px;
+    font-size: 100px;
+    font-family: monospace;
+    background-image: url("../pic/Pic1.jpg");
+    position: relative;
+    height: 860px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+#info{
+    color: white;
+    padding: 150px 50px;
+    font-style: italic;
+    word-spacing: 20px;
+}
+#minisize{
+    font-size: small;
+    word-spacing: 2px ;
+}
+a.helper{
+    width: 60%;
+    height: 80px;
+    margin: 0px auto;
+    text-decoration: none;
+    transition: 1s;
+}
+.noidung a.helper div:hover#ProduceButton{
+    opacity: 50%;
+}
+.noidung #ProduceButton{
+    text-transform: capitalize;
+    align-items: center;
+    font-size: 15px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    clip-path: inset(0px 0px 0px round 15px);
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin: 0px 850px;
+    box-sizing: border-box;
+}  
+#h3text{
+    color: white;
+}
+#link{
+    color: black;
+    background-color: yellow;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.infomation{
+    margin-top: 2px;
+    background-image: url(../pic/wp6002096.webp);
+    height: 863px;
+}
+#left_menu{
+    text-align: justify;;
+    position: absolute;
+    left: -10px;
+    width: 200px;
+    background-color: black;
+    height: 90%;
+}
+#tag{
+    text-decoration: none;
+    color: white;
+}
+#type{
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+#type_about{
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+    padding-left: 0px;
+}
+#gamelist{
+    padding-left: 200px;
+}
+.product-thumb img{
+    width: 250px;
+    height: 250px;
+}
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.products li{
+    padding-left: 10px;
+    padding-right: 152px;
+    box-sizing: border-box;
+    flex-basis: 25%;
+    margin-bottom: 20px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;;
+}
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+ul.products li:hover .product-top .product-thumb img{
+    filter: opacity(80%);
+}
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+ul.products li .product-top a.buy-now{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: darkcyan;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+    opacity: 70%;
+}
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+}
+ul.products li .product-info{
+    padding-top: 10px;
+}
+ul.products li .product-info a{
+    text-decoration: none;
+    display: block;
+}
+ul.products li .product-info a.product-cat{
+    font-size: 14px;
+    color: darkgrey;
+    opacity: 90%;
+}
+ul.products li .product-info a.productname{
+    color: rgb(49, 49, 49);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.main-game-bg{
+    top: 2px;
+    /* left:200px; */
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* right: -100px; */
+}
+.main-game-info{    
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.main-game-info img{
+    margin-top: 10px;
+    width: 350px;
+    height: auto;
+    clip-path: inset(0px 0px 0px round 1200px);
+    scale: 0.5px;
+}
+.main-game-text{
+    margin-left: 20px;
+    color: black;
+}
+.main-game-bg{
+    display: flex;
+}
+.main-game-info .main-game-text h3.main-game-title{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.main-game-info .main-game-text .game-access{
+    display: flex;
+}
+.main-game-info .main-game-text .game-price{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
+.main-game-info .main-game-text .buy-button{
+    padding-left: 10px;
+}
+.main-game-info .main-game-text .buy-button a{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+.main-game-info .main-game-text .buy-button:hover a{
+    opacity: 80%;
+    text-shadow: 2px 2px 3px black;
+}
+.main-game-info .main-game-text h3.main-game-intro{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: thin;
+}
+.main-game-text h6{
+    font-size: 20px;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
